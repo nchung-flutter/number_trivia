@@ -13,7 +13,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Number',
+      title: 'Number Trivia',
+      debugShowCheckedModeBanner: false,
       color: Colors.white,
       theme: ThemeData(primaryColor: Colors.blue.shade600, accentColor: Colors.blue.shade300),
       home: NumberTriviaPage(),

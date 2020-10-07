@@ -8,11 +8,8 @@ class TriviaDisplay extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ConstrainedBox(
-      constraints: BoxConstraints(
-        minHeight: 50,
-        maxHeight: MediaQuery.of(context).size.height / 3,
-      ),
+    return Container(
+      height: MediaQuery.of(context).size.height / 3,
       child: Column(
         children: [
           Padding(
